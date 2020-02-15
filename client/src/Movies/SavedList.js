@@ -6,7 +6,10 @@ const SavedList = props => (
     {props.list.map(movie => (
       <span className="saved-movie">{movie.title}</span>
     ))}
-    <div className="home-button">Home</div>
+
+    //Add functionality so the `Home` button on the `SavedList` component navigates back to home.
+   <div className="home-button" onClick={() => props.history.push("/")}>Home</div>
+      
   </div>
 );
 
