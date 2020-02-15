@@ -23,7 +23,11 @@ const App = () => {
       <Route path="/" component={MovieList} />
       <Route path="/movies/: id" component={Movies} />
     </div>
-
+    // Although there are no bugs, I have not had the ability to see the finished product.
+    // since my first build week I've had trouble with accessing my terminal via Visual Studio Code.
+    // The partner I had put a code or something into the system that disabled my access. I have not been able to get on since. 
+    // I tried starting yarn in the root of the directory, which I assumed was under package.json start, and I hit start. this opened up my terminal but there is still no active page with localhost:3000.
+    //I also used the laptop terminal to activate Yarn start. This worked and watched for errors, but still no live localhost:300.
   );
 }
   
